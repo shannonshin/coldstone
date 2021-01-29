@@ -142,8 +142,9 @@
     .con03Txt{
         position:absolute;
         top:50%;
+        left:0;
         margin:0 auto;
-        width:85%;
+        width:100%;
     }
     .con03Txt h2{
         font-size:30px;
