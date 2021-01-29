@@ -51,6 +51,8 @@
         z-index:1;
         top:0;
         right:0;
+        white-space:nowrap;
+        overflow:hidden;
     }
     .panelBg{
         background-color:rgba(0,0,0,0.6);
@@ -58,7 +60,7 @@
         height:100%;
     }
     .panelMenu{
-        width:100%;
+        width:0;
         height:100%;
         overflow:hidden;
         position:fixed;
@@ -70,8 +72,8 @@
     }
     .panelMenu li{
         text-align:right;
-        margin-right:30px;
-        margin-bottom:30px;
+        margin:0 30px 30px auto;
+        width:250px;
     }
     .panelMenu li a{color:#333;}
     .closeIco{
@@ -79,6 +81,7 @@
         right:10px;
         top:10px;
     }
+    
     
     
     /*메인슬라이더*/
