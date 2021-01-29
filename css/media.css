@@ -44,6 +44,42 @@
     .panel span{
         margin:5px auto;
     }
+    .panelWrap{
+        width:100%;
+        height:100%;
+        position:fixed;
+        z-index:1;
+        top:0;
+        right:0;
+    }
+    .panelBg{
+        background-color:rgba(0,0,0,0.6);
+        width:100%;
+        height:100%;
+    }
+    .panelMenu{
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        position:fixed;
+        right:0;
+        top:0;
+        background:#fff; 
+        padding-top:50px;
+        transition:width 0.5s;
+    }
+    .panelMenu li{
+        text-align:right;
+        margin-right:30px;
+        margin-bottom:30px;
+    }
+    .panelMenu li a{color:#333;}
+    .closeIco{
+        position:fixed;
+        right:10px;
+        top:10px;
+    }
+    
     
     /*메인슬라이더*/
     .mainSlider{
@@ -95,18 +131,19 @@
         background:#DDD1C1;
         position:relative;
     }
-    .mainCon03 li{float:none;}
-    .con03Img{margin:0;}
+    .con03Img{
+        box-shadow:none;
+        margin:0;
+    }
     .con03Img img{
         margin:0 auto;
         padding:50px 0;
     }
     .con03Txt{
         position:absolute;
-        text-align:center;
-        width:100%;
         top:50%;
-        margin:0;
+        margin:0 auto;
+        width:85%;
     }
     .con03Txt h2{
         font-size:30px;

@@ -14,7 +14,7 @@
 }
 .txtBox{
     position:absolute;
-    right:470px;
+    right:24%;
     top:350px;
 }
 .title{text-align:right;}
@@ -100,15 +100,19 @@
     background:url(../images/main/mainCon03Bg.png) no-repeat center center;
     text-align:center;
 }
-.mainCon03 li{float:left;}
+.mainCon03 li{
+    display:inline-block;
+    vertical-align:middle;
+}
 .con03Txt{
-    margin:200px 250px 0 550px;
+    margin-right:150px;
+    margin-top:50px;
 }
 .con03Txt h2{
     font-family:"Hanna",serif;
-    font-size:60px;    
-    text-align:right;
+    font-size:60px;
     margin-bottom:0px;
+    text-align:right;
 }
 .con03Txt p{
     font-size:45px;
